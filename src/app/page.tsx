@@ -292,14 +292,14 @@ export default function PageHome() {
                 <div className="text-center text-sm text-muted-foreground">
                   Untuk Selamanya
                 </div>
-                <Link href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+                <Link href="https://api.whatsapp.com/send?phone=6281290546095&text=Halo%20Min!%20Saya%20Mau%20Beli%20Template%20Canvanya%20%F0%9F%94%A5" target="_blank" rel="noopener noreferrer">
                   <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-9 px-4 py-2 group relative w-full gap-2 overflow-hidden text-lg font-semibold tracking-tighter transform-gpu ring-offset-current transition-all duration-300 ease-out hover:ring-2 hover:ring-primary hover:ring-offset-2 mt-4">
                     <span className="absolute right-0 -mt-12 h-32 w-8 translate-x-12 rotate-12 transform-gpu bg-white opacity-10 transition-all duration-1000 ease-out group-hover:-translate-x-96 dark:bg-black"></span>
                       <p>⚡Beli Sekarang⚡</p>
                   </button>
                 </Link> 
                 <div id="countdown" className="text-center mt-2 text-red-500 font-bold">
-                  Promo Khusus Hari Ini!
+                  Promo Khusus Bulan November!
                 </div>
                 <div className="flex justify-center mt-4">
                 <Image src="/qris.png" alt="QRIS" width={500} height={500} />

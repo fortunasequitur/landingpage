@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="fixed bottom-0 inset-x-0 h-16 w-full bg-background to-transparent backdrop-blur-lg [-webkit-mask-image:linear-gradient(to_top,black,transparent)] dark:bg-background"></div>
       <Dock className="z-50 pointer-events-auto relative mx-auto flex min-h-full h-full items-center justify-center px-1">
         <Link
-          href="https://wa.me/6281290640894" // Ganti dengan nomor WhatsApp admin
+          href="https://api.whatsapp.com/send?phone=6281290546095&text=Halo%20Min!%20Saya%20Mau%20Beli%20Template%20Canvanya%20%F0%9F%94%A5" // Ganti dengan nomor WhatsApp admin
           className="flex items-center px-4 py-2 bg-green-500 text-white rounded-full shadow-md hover:bg-green-600 transition"
         >
           <svg
