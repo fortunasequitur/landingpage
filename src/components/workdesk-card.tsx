@@ -5,7 +5,7 @@ import Link from "next/link";
 interface Props {
   title: string;
   description: string;
-  tagline: string;
+  tagline?: string;
   image?: string;
   links?: readonly {
     icon: React.ReactNode;
@@ -17,7 +17,7 @@ interface Props {
 export function WorkdeskCard({
   title,
   description,
-  tagline,
+  // tagline,
   image,
   links,
 }: Props) {
@@ -30,9 +30,10 @@ export function WorkdeskCard({
         </Avatar>
       </div>
       <div className="flex flex-1 flex-col justify-start gap-1">
-        {tagline && (
+        {/* Hapus bagian ini untuk menghilangkan tagline */}
+        {/* {tagline && (
           <span className="text-xs text-muted-foreground">{tagline}</span>
-        )}
+        )} */}
         <h2 className="font-semibold leading-none">{title}</h2>
         {description && (
           <span className="prose dark:prose-invert text-sm text-muted-foreground">

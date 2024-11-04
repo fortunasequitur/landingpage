@@ -16,9 +16,10 @@ interface ResumeCardProps {
   subtitle?: string;
   href?: string;
   badges?: readonly string[];
-  period: string;
+  // period: string; // Hapus atau komentari baris ini
   description?: string;
 }
+
 export const ResumeCard = ({
   logoUrl,
   altText,
@@ -26,7 +27,7 @@ export const ResumeCard = ({
   subtitle,
   href,
   badges,
-  period,
+  // period, // Hapus atau komentari baris ini
   description,
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
@@ -80,9 +81,10 @@ export const ResumeCard = ({
                   )}
                 />
               </h3>
-              <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
+              {/* Hapus atau komentari div berikut jika tidak ingin menampilkan period */}
+              {/* <div className="text-xs sm:text-sm tabular-nums text-muted-foreground text-right">
                 {period}
-              </div>
+              </div> */}
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>
