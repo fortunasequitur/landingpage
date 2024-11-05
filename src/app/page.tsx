@@ -11,6 +11,7 @@ import Link from "next/link";
 import Markdown from "react-markdown";
 import { WorkdeskCard } from "@/components/workdesk-card";
 import Image from 'next/image';
+import { Analytics } from "@vercel/analytics/react"
 
 const BLUR_FADE_DELAY = 0.04;
 
